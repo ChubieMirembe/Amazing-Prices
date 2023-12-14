@@ -1,0 +1,27 @@
+#header{
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-grow: 1;
+}
+
+#nav-brand{
+    flex-grow: 1;
+    padding-left: 5%;
+}
+
+.navi{
+    padding: 10px;
+}
+
+.main{
+    height: 100vh;
+    background-color: rgb(181, 220, 251);
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    border-top: 1px solid black;
+    height: 61px;
+}
