@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+}
+
 #header{
     display: flex;
     border-bottom: 1px solid black;
@@ -15,7 +19,37 @@
 
 .main{
     height: 100vh;
-    background-color: rgb(181, 220, 251);
+    text-align: center;
+}
+
+
+#first-section{
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+#card-section{
+    justify-content: center;
+    display: flex;
+}
+
+.card-header{
+    border-bottom: 1px solid black;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    flex-basis: 20%;
+    background-color: lightgray;
+}
+
+.button{
+    margin-bottom: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
 }
 
 #footer{
@@ -23,5 +57,5 @@
     justify-content: space-around;
     flex-grow: 1;
     border-top: 1px solid black;
-    height: 61px;
 }
+
